@@ -188,6 +188,7 @@ fn cw4_voting_contract() -> Box<dyn Contract<Empty>> {
     Box::new(contract)
 }
 
+//** MARKER */
 fn instantiate_with_staked_cw721_governance(
     app: &mut App,
     proposal_module_code_id: u64,
@@ -846,6 +847,7 @@ fn do_votes_cw4_weights(
     );
 }
 
+//***MARKER */
 fn do_test_votes<F>(
     votes: Vec<TestSingleChoiceVote>,
     threshold: Threshold,
