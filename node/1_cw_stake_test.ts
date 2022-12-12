@@ -7,7 +7,7 @@ const dao_core_wasm = fs.readFileSync("../artifacts/dao_core.wasm");
 const cw20_stake_wasm = fs.readFileSync("../artifacts/dao_voting_cw20_staked.wasm");
 const dao_proposal_single_wasm = fs.readFileSync("../artifacts/dao_proposal_single.wasm");
 
-
+const cw_20_code_id = 3349;
 const dao_core_id = 0;
 const cw20_stake_id = 0;
 const dao_proposal_single_id = 0;
